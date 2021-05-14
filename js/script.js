@@ -10,7 +10,7 @@ function enterClicked() {
   // This function get fahrenheit and calculate and show it back
 
   //input
-  const fahrenheit = parseFloat(document.getElementById("Fahrenheit").value)
+  const fahrenheit = parseFloat(document.getElementById("fahrenheit").value)
 
   // process
   const celsius = (fahrenheit - 32) * 5 / 9
